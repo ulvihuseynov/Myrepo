@@ -1,0 +1,105 @@
+*{box-sizing: border-box;}
+header{
+    height: 100px;
+    background-color: rgba(33, 33, 33, 0.737);
+    display: flex;
+    flex-direction: column;
+}
+header h1{
+    font-size: 30px;
+color: rgb(240, 243, 246);
+   font-weight: bold;
+   padding: 10px;
+}
+header h1:hover{
+    color: aqua;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+header ul li {
+    margin-left: 10px;
+    color: rgba(254, 15, 15, 0.948);
+    cursor: pointer;
+}
+header ul li a{
+    color: rgb(233, 15, 15);
+
+}
+header ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+section div{
+    display:flex ;
+    flex-direction: column;
+    gap: 20px;
+    margin: 50px;
+}
+section div h2{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+color: rgb(5, 5, 182);
+}
+section div p{
+    font-size: 20px;
+    color: rgb(18, 92, 18);
+    font-weight: bold;
+}
+aside{
+    background-color: #ddd;
+}
+input , button{
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(13, 144, 100);
+    color: azure;
+    font-weight: 600;
+    margin-top: 30px;
+    outline: none;
+}
+button{cursor: pointer;}
+input::placeholder{
+    color: azure;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 6px;
+}
+h3, h4{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+}
+aside ul{
+    margin: 20px;
+}
+aside ul li{
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(148, 5, 134);
+}
+footer{
+    height: 80px;
+    background-color: rgb(138, 138, 56);
+}
+footer:hover{
+    background-color: #840808;
+}
+p{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(23, 23, 23);
+    padding: 28px;}
+p:hover{
+color: rgb(228, 231, 233);
+}
